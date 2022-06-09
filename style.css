@@ -32,7 +32,7 @@ h1 {
   float: left;
   background: #fafafa;
   color: rgb(0, 0, 0);
-  font-size: 50px;
+  font-size: 60px;
 }
 
 h1 span {
@@ -78,7 +78,7 @@ h1 span {
     text-align: center;
   }
   h1 {
-    font-size: 125px;
+    font-size: 60px;
   }
 }
 @media screen and (min-width: 767px) and (max-width: 800px) {
