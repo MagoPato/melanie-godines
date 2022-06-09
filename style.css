@@ -1,0 +1,95 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  background-color: #fafafa;
+}
+
+.padre {
+  background-color: #fafafa;
+  margin: auto;
+  padding: auto;
+  border: 2px solid #ccc;
+  /* IMPORTANTE */
+  text-align: center;
+}
+
+.heart__heart2 {
+  opacity: 0;
+}
+
+.contenedor {
+  margin: auto;
+  display: table;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  float: left;
+  background: #fafafa;
+  color: rgb(0, 0, 0);
+  font-size: 80px;
+}
+
+h1 span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: #fafafa;
+  border-left: 1px solid #000;
+  animation: escribir 3.7s steps(30);
+}
+
+@keyframes escribir {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+
+/* Empezamos con los estilos del escritorio */
+
+@media screen and (min-width: 1280px) {
+  .padre {
+    background-color: #fafafa;
+    margin: auto;
+    padding: auto;
+    border: 2px solid #ccc;
+    /* IMPORTANTE */
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1280px) {
+  /* Aquí van los estilos para tablets medianas */
+  .padre {
+    background-color: #fafafa;
+    margin: auto;
+    padding: auto;
+    margin-top: 50%;
+    border: 2px solid #ccc;
+    /* IMPORTANTE */
+    text-align: center;
+  }
+  h1 {
+    font-size: 125px;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 800px) {
+  /* Aquí van los estilos para tablets medianas */
+  .padre {
+    background-color: #fafafa;
+    margin: auto;
+    padding: auto;
+    margin-top: 50%;
+    border: 2px solid #ccc;
+    /* IMPORTANTE */
+    text-align: center;
+  }
+}
